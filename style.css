@@ -1,0 +1,26 @@
+body {
+  background: #4e4e94;
+}
+
+.jacaranda--img {
+width: 100%;
+}
+
+.flowers {
+  width: 50vw;
+
+}
+
+.trees {
+  width: 50vw;
+  float: right;
+}
+
+.purple--panic--img {
+  width: 50vw;
+}
+
+.caveats--img {
+  width: 50vw;
+
+}
