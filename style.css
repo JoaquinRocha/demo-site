@@ -1,130 +1,88 @@
+/* Browser Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana, arial, sans-serif;
+}
+
 body {
   background: #4e4e94;
 }
 
-.section--1 {
-  border: purple;
-  border-style: solid;
+section {
+  position: relative;
 }
 
+
+/*Styling for the title and intro*/
 .title {
   font-size: 5vw;
   text-align: center;
   font-family: helvetica, arial, sans-serif;
 }
 
+.jacaranda--intro {
+  position: absolute;
+  padding-left: 9%;
+  bottom: 9%;
+}
+
+.jacaranda--intro p {
+  padding: 10px 0;
+  text-align: center;
+  color: #F0E0F3;
+  text-shadow: 1px 3px 3px black;
+}
+
 .jacaranda--img {
 width: 100%;
 }
 
-.intro--text {
- position: absolute;
- font-family: verdana, arial, sans-serif;
- top: 135%;
- left: 50%;
- transform: translate(-50%, -50%);
- text-align: center;
- font-size: 1.5vw;
- text-shadow: 1px -3px 5px black;
- color: #F0E0F3;
-}
-
-.author--Joshua{
-  position: absolute;
-  top: 156%;
-  left: 16px;
-  color: white;
-  text-shadow: 1px 1px 2px black;
-}
-
-.flowers {
+/*Styling for the rest of the images in general*/
+.imgs--jacaranda {
   width: 50vw;
-  margin-bottom: -3px;
 }
 
-.author--Junel {
-  position: absolute;
-  top: 232%;
-  left: 16px;
-  color: white;
-  text-shadow: 1px 1px 2px black;
-}
-
-.flower--text {
-  text-align: center;
-  font-family: verdana, arial, sans-serif;
-  position: absolute;
-  font-size: 1.5vw;
-  left: 52%;
-  top: 180%;
-  color: #D0B4D5;
-
-}
-
-.trees {
-  width: 50vw;
+.float--right {
   float: right;
 }
 
-.author--German {
-  position: absolute;
-  top: 348%;
-  right: 16px;
-  color: white;
-  text-shadow: 1px 1px 2px black;
-}
-
-.tree--text {
-  text-align: center;
-  font-family: verdana, arial, sans-serif;
-  position: absolute;
-  font-size: 2vw;
-  right: 52%;
-  top: 280%;
+/*Styling for the text in general*/
+.description--text {
   color: #D0B4D5;
-}
-
-.purple--panic--img {
-  width: 50vw;
-}
-
-.author--Junel--2 {
-  position: absolute;
-  top: 485%;
-  left: 16px;
-  color: white;
-  text-shadow: 1px 1px 2px black;
-}
-
-.purple--panic--text {
-  text-align: center;
-  font-family: verdana, arial, sans-serif;
-  position: absolute;
-  font-size: 2vw;
-  left: 52%;
-  top: 400%;
-  color: #D0B4D5;
-}
-
-.caveats--img {
-  width: 50vw;
-  float: right;
-}
-
-.author--Tim {
-  position: absolute;
-  top: 489%;
-  right: 16px;
-  color: white;
-  text-shadow: 1px 1px 2px black;
-}
-
-.caveats--text {
-  text-align: center;
-  font-family: verdana, arial, sans-serif;
-  position: absolute;
   font-size: 1.5vw;
-  right: 52%;
-  top: 515%;
-  color: #D0B4D5;
+}
+
+.larger--text {
+  font-size: 2vw;
+}
+
+/*Individual styling for the text and images*/
+.jacaranda--flower--text {
+  position: absolute;
+  max-width: 500px;
+  left: 56%;
+  bottom: 30%;
+  }
+
+.jacaranda--flower--text p {
+  padding: 10px 0;
+  text-align: center;
+  text-shadow: 1px 3px 3px black;
+}
+
+
+
+.jacaranda--tree--text {
+  position: absolute;
+  max-width: 500px;
+  bottom: 80%;
+
+}
+
+.jacaranda--tree--text p {
+  padding: 20px 0;
+  text-align: center;
+  text-shadow: 1px 3px 3px black;
 }
